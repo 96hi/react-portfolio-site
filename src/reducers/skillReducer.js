@@ -10,7 +10,7 @@ export const actionTypes = {
 export const initialState = {
    languageList: [],
    requestState: requestStates.idle,
-}
+};
 
 export const skillReducer = (
   state, action
@@ -35,6 +35,10 @@ export const skillReducer = (
       }
     }
     case actionTypes.error: {
+      return {
+       languageList: [],
+       requestState: requestStates.error
+      }
     }
     default: {
       throw new Error();

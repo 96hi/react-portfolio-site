@@ -118,6 +118,10 @@ h3 {
    flex-wrap: wrap;
    text-align: center;
  }
+ .challenge-contents {
+  text-align: center;
+  border-top: #4d4d4d 1px solid;
+ }
   #contact {
     padding: 128px 0;
     clear: both;
@@ -127,7 +131,7 @@ h3 {
    background: #30BFBA;
  }
  
- .contact-contents {
+ .contact-contents  {
    color: white;
    text-align: center;
  }
